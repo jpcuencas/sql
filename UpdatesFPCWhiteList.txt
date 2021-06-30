@@ -1,0 +1,31 @@
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcDimensionVersionTree_aux'
+WHERE "code" ='TB' AND "val" = 'fpcDimensionVersionTree';
+
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcLoadLineBalance_aux'
+WHERE "code" ='TB' AND "val" = 'fpcLoadLineBalance';
+
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcLoadLineCR_aux'
+WHERE "code" ='TB' AND "val" = 'fpcLoadLineCR';
+
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcLoadLineCapital_aux'
+WHERE "code" ='TB' AND "val" = 'fpcLoadLineCapital';
+
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcLoadLineCosts_aux'
+WHERE "code" ='TB' AND "val" = 'fpcLoadLineCosts';
+
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcLoadLineInstitutionals_aux'
+WHERE "code" ='TB' AND "val" = 'fpcLoadLineInstitutionals';
+
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcLoadLineModel_aux'
+WHERE "code" ='TB' AND "val" = 'fpcLoadLineModel';
+
+UPDATE APPIANAPP."fpc_api_whitelist"
+SET val = 'fpcLoadLinePL_aux'
+WHERE "code" ='TB' AND "val" = 'fpcLoadLinePL';

@@ -1,0 +1,24 @@
+-- TABLES FPC
+CREATE TABLE "APPIANAPP"."fpcLoadLinePL_aux"
+  AS (SELECT *
+      FROM "APPIANAPP"."fpcLoadLinePL");
+      
+CREATE TABLE "APPIANAPP"."fpcLoadLineBalance_aux"
+  AS (SELECT *
+      FROM "APPIANAPP"."fpcLoadLineBalance");
+
+CREATE TABLE "APPIANAPP"."fpcLoadLineModel_aux"
+  AS (SELECT *
+      FROM "APPIANAPP"."fpcLoadLineModel");
+      
+CREATE TABLE "APPIANAPP"."fpcLoadLineCapital_aux"
+  AS (SELECT *
+      FROM "APPIANAPP"."fpcLoadLineCapital");
+      
+CREATE TABLE "APPIANAPP"."fpcLoadLineCR_aux"
+  AS (SELECT *
+      FROM "APPIANAPP"."fpcLoadLineCR");
+      
+CREATE TABLE "APPIANAPP"."fpcLoadLineInstitutionals_aux"
+  AS (SELECT *
+      FROM "APPIANAPP"."fpcLoadLineInstitutionals");
